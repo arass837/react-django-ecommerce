@@ -1,0 +1,28 @@
+# Python / Django
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.sqlite3
+.env
+.env.*
+!.env.example
+
+# Django uploads and generated files
+backend/media/
+backend/staticfiles/
+
+# React
+node_modules/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
